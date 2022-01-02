@@ -7,34 +7,50 @@
     <link rel="stylesheet" 
     href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Advanced NHL Stats</title>
 </head>
 <body>
+    <h1>NHL Player Cards: 2020-2021</h1>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <h1 class=>Advanced Player Stats</h1>
-                <h2>Enter player's name.</h2>
                 <form id="form">
-                    <input class="form-control" id="user-input" 
-                    placeholder="Player">
+                    <input class="form-control sm-12" id="user-input" 
+                    placeholder="Player Name">
                     <button id="button" type="submit" class="btn btn-secondary">Search</button>
                 </form>
-                <table class="table" callpadding="10">
-                    <thead>
-                        <tr>
-                            <th scope="col">Player</th>
-                            <th scope="col">Age</th>
-                            <th scope="col">Team</th>
-                            <th scope="col">Position</th>
-                        </tr>
-                    </thead>
-                    <tbody></tbody>
-                </table>
             </div>
         </div>
     </div>
+    <div id="card"></div>
+    <div id="name"></div>
+    <div id="position">Position:</div>
+    <div id="team">Team:</div>
+    <div id="age">Age:</div>
+    <div id="position-stat"></div>
+    <div id="team-stat"></div>
+    <div id="age-stat"></div>
+    <div id="cf">CF%</div>
+    <div id="ff">FF%</div>
+    <div id="pdo">PDO</div>
+    <div id="toi">TOI</div>
+    <div id="e">E+/-</div>
+    <div id="cf-box"></div>
+    <div id="ff-box"></div>
+    <div id="pdo-box"></div>
+    <div id="toi-box"></div>
+    <div id="e-box"></div>
+    <div id="cf-stat"></div>
+    <div id="ff-stat"></div>
+    <div id="pdo-stat"></div>
+    <div id="toi-stat"></div>
+    <div id="e-stat"></div>
+    <p class="lead">All stats are displayed as percentiles. Data obtained from 
+        <a href="https://www.hockey-reference.com/leagues/NHL_2021_skaters-advanced.html">hockey-reference.com</a></p>
+    
+    
 </body>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="script.js"></script>
 </html>

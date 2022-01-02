@@ -1,0 +1,402 @@
+@import url(//fonts.googleapis.com/earlyaccess/nats.css);
+h1, h2 {
+    text-align: center;
+    margin: auto;
+    width: 100%;
+    padding-bottom: 40px;
+}
+p {
+    position: absolute;
+    width: 340px;
+    left: 1100px;
+    top: 450px;
+}
+body {
+    position: relative;
+    width: 1440px;
+    height: 1024px;
+
+    background: #FFFFFF;
+}
+#form {
+    width: 300px;
+    margin: auto;
+}
+#button {
+    position: absolute;
+    top: 70px;
+    left: 540px;
+}
+#card {
+    position: absolute;
+    width: 600px;
+    height: 400px;
+    left: 418px;
+    top: 285px;
+    
+    background: #EEEEEE;
+}
+#name {
+    position: absolute;
+    width: 600px;
+    height: 67px;
+    left: 418px;
+    top: 270px;
+    font-family: NATS;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 101px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+#position {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    left: 432px;
+    top: 366px;
+    
+    font-family: NATS;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 51px;
+    display: inline-block;
+    align-items: center;
+    text-align: right;
+    
+    color: #000000;
+}
+#team {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    left: 432px;
+    top: 413px;
+
+    font-family: NATS;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 51px;
+    display: inline-block;
+    align-items: center;
+    text-align: right;
+
+    color: #000000;
+}
+#age {
+    position: absolute;
+    width: 100px;
+    height: 25px;
+    left: 432px;
+    top: 460px;
+
+    font-family: NATS;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 51px;
+    display: inline-block;
+    align-items: center;
+    text-align: right;
+
+    color: #000000;
+}
+#position-stat {
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    left: 553px;
+    top: 366px;
+    
+    font-family: NATS;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 51px;
+    display: inline-block;
+    align-items: center;
+    
+    color: #000000;
+
+}
+#team-stat {
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    left: 553px;
+    top: 416px;
+    
+    font-family: NATS;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 51px;
+    display: inline-block;
+    align-items: center;
+    
+    color: #000000;
+}
+#age-stat { 
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    left: 553px;
+    top: 460px;
+    
+    font-family: NATS;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 51px;
+    display: inline-block;
+    align-items: center;
+    
+    color: #000000;
+}
+#cf {
+    position: absolute;
+    width: 75px;
+    height: 35px;
+    left: 680px;
+    top: 335px;
+
+    font-family: NATS;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 76px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+#ff {
+    position: absolute;
+    width: 71px;
+    height: 35px;
+    left: 835px;
+    top: 335px;
+
+    font-family: NATS;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 76px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+
+}
+#pdo {
+    position: absolute;
+    width: 77px;
+    height: 35px;
+    left: 514px;
+    top: 490px;
+
+    font-family: NATS;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 76px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+#toi {
+    position: absolute;
+    width: 64px;
+    height: 35px;
+    left: 686px;
+    top: 490px;
+
+    font-family: NATS;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 76px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+#e {
+    position: absolute;
+    width: 68px;
+    height: 35px;
+    left: 838px;
+    top: 490px;
+
+    font-family: NATS;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 76px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
+}
+#cf-box {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 668px;
+    top: 397px;
+    
+    background: #C4C4C4;
+
+}
+#ff-box { 
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 821px;
+    top: 397px;
+    
+    background: #C4C4C4;
+
+}
+#pdo-box { 
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 503px;
+    top: 551px;
+    
+    background: #C4C4C4;
+}
+#toi-box { 
+    position: absolute;
+    width: 100px;
+    height: 103px;
+    left: 668px;
+    top: 551px;
+    
+    background: #C4C4C4;
+
+}
+#e-box { 
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 821px;
+    top: 551px;
+    
+    background: #C4C4C4;
+
+}
+#cf-stat { 
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    left: 680px;
+    top: 400px;
+    
+    font-family: NATS;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 101px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+
+}
+#ff-stat { 
+    position: absolute;
+    width: 80px;
+    height: 43px;
+    left: 831px;
+    top: 400px;
+    
+    font-family: NATS;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 101px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+
+}
+#pdo-stat { 
+    position: absolute;
+    width: 80px;
+    height: 43px;
+    left: 514px;
+    top: 550px;
+    
+    font-family: NATS;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 101px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+
+}
+#toi-stat { 
+    position: absolute;
+    width: 80px;
+    height: 43px;
+    left: 678px;
+    top: 550px;
+    
+    font-family: NATS;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 101px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+
+}
+#e-stat { 
+    position: absolute;
+    width: 80px;
+    height: 40px;
+    left: 831px;
+    top: 550px;
+    
+    font-family: NATS;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 101px;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+
+}
+/*#card, #name, #position, #team, #age, #position-stat, #team-stat, #age-stat, #cf, #ff, #pdo,
+#toi, #e, #cf-box, #ff-box, #pdo-box, #toi-box, #e-box, #cf-stat, #ff-stat, #pdo-stat, #toi-stat, #e-stat {
+    display: none;
+}*/
